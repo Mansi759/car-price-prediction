@@ -1,6 +1,7 @@
 import pickle 
 import streamlit as st 
 import numpy as np 
+import sklearn
 
 
 with open("linear.pkl", "rb") as file:
